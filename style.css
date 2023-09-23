@@ -102,3 +102,21 @@ ul li.checked{
 ul li.checked::before{
     background-image: url(./images/checked.png);
 }
+
+/* Adding css for the span tag created using JS */
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul li span:hover{
+    background-color: #edeef0;
+    border-radius: 50%;
+}
